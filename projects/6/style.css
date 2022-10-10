@@ -1,0 +1,310 @@
+*{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.backgroundtop{
+    background-image: url(./images/main-screen__bgc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 87vh;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 24px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.menu a{
+    padding: 0px 18px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+}
+.menu a:hover{
+    color: rgb(89, 3, 105);
+}
+.cabinet button{
+    width: 183px;
+height: 44px;
+background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+border-radius: 50px;
+border: none;
+color: white;
+}
+.cabinet button:hover{
+    color: rgb(201, 199, 199);
+    background: linear-gradient(94.26deg, #caa4f4 9.51%, #8e7dfa 90.23%);
+    
+}
+.menutext{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.menutext-items{
+    width: 70%;
+}
+.perviy h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.box{
+    width: 102px;
+    padding: 20px 28px;
+    background-color: #121212;
+    color: white;
+    
+    text-align: center;
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 140%;
+box-sizing: border-box;
+opacity: 1;
+}
+#dney{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.box:hover{
+    opacity: 0.7;
+}
+.background2{
+    width: 100%;
+    height: 13vh;
+    background-image: url(./images/main-screen-last-line-bgc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zakazatkurs button{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+border-radius: 50px;
+padding: 10px 30px;
+color: white;
+border: none;
+font-weight: 700;
+}
+.uchenikov1{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    margin: 0px 64px;
+}
+.uchenik{
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: none;
+}
+.uchenik1{
+    font-weight: 700;
+font-size: 16px;
+}
+span{
+    font-weight: 700;
+    font-size: 16px;
+}
+.line{
+    background-color: white;
+    width: 260%;
+    height: 1vh;
+}
+.zarabotano{
+    padding-right: 256px;
+    padding-bottom: 2px;
+}
+.line1{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    width: 60%;
+    height: 1vh;
+}
+.num{
+    display: flex;
+    justify-content: space-between;
+    width: 260%;
+    padding-top: 2px;
+}
+.top{
+    width: 100%;
+    background-image: url(./images/bgc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topp{
+    width: 90%;
+    margin: auto;
+}
+.first{
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    position: relative;
+    top: 0;
+}
+.rectangle{
+    position: absolute;
+    top: 100px;
+    left: 36px;
+}
+.chem{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.chem p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+}
+.chem h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+}
+.rec{
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+}
+.rec1{
+    padding-right: 24px;
+}
+.rec2 h2{
+    font-style: normal;
+font-weight: 700;
+font-size: 48px;
+}
+.percent{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.percent1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.percent3{
+    width: 100%;
+    height: 12vh;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    margin: 36px 0px;
+}
+.percent3a{
+    width: 100%;
+    height: 9vh;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    margin: 36px 0px;
+}
+.percent3b{
+    width: 100%;
+    height: 6vh;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    margin: 36px 0px;
+}
+.percent3c{
+    width: 100%;
+    height: 3vh;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    margin: 36px 0px;
+}
+.percent1a{
+    width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 4px;
+}
+.second{
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+.icons{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    width: 30%;
+}
+.icon3{
+    padding: 24px 0px;
+    line-height: 3vh;
+}
+.icon4 p{
+    line-height: 3vh;
+}
+.ig{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.ig2{
+    font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 140%;
+padding-left: 24px;
+}
+.table{
+    border: none;
+    margin-top: 50px;
+}
+tr, td{
+    border: 2px solid white;
+    padding: 64px;
+    border-collapse: inherit;
+    
+}
+.tre{
+    text-align: center;
+    padding: 100px 0px;
+}
+.tre h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+}

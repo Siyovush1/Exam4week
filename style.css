@@ -1,0 +1,549 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  width: 100%;
+  margin: 0px;
+}
+@media (max-width: 480px) {
+  .container {
+    height: auto;
+  }
+}
+.container .menu {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  height: 5vh;
+}
+@media (max-width: 480px) {
+  .container .menu {
+    height: 82vh;
+    width: 100%;
+    text-align: center;
+  }
+}
+.container .menu .menu1 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+@media (max-width: 480px) {
+  .container .menu .menu1 {
+    margin-top: 50px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+}
+.container .menu .menu1 #ahome li a {
+  color: grey;
+}
+.container .menu .menu1 .Boboshoev a {
+  font-family: "Caesar Dressing", cursive;
+}
+@media (max-width: 480px) {
+  .container .menu .menu1 .Boboshoev a {
+    font-family: "Caesar Dressing", cursive;
+  }
+}
+.container .menu .menu1 a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+.container .menu .menu1 a:hover {
+  color: gray;
+}
+.container .menu .menu1 ul {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .container .menu .menu1 ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+}
+.container .menu .menu1 ul li {
+  list-style: none;
+  padding: 36px 12px;
+}
+.container .aboutmyself {
+  width: 100%;
+  background-color: black;
+  height: 200vh;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself {
+    width: 100%;
+    height: auto;
+  }
+}
+.container .aboutmyself .aboutmyself1 {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutmyself1 {
+    width: 90%;
+  }
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+  padding-top: 200px;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutmyself1 .aboutmyself2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    height: auto;
+  }
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself2 .photos {
+  width: 100%;
+  text-align: left;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutmyself1 .aboutmyself2 .photos {
+    width: 100%;
+    text-align: left;
+    margin-right: 200px;
+  }
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself2 .photos img {
+  box-shadow: 5px 5px 10px white;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutmyself1 .aboutmyself2 .photos img {
+    text-align: left;
+  }
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself2 .abouttext {
+  text-align: left;
+  width: 100%;
+  color: white;
+  margin-top: 150px;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutmyself1 .aboutmyself2 .abouttext {
+    width: 100%;
+  }
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself2 .abouttext h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: 200;
+  font-family: "Open Sans", sans-serif;
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself2 .abouttext h4 {
+  font-size: 48px;
+  font-family: "Caesar Dressing", cursive;
+  margin-bottom: 24px;
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself2 .abouttext h6 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 24px;
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself2 .abouttext button {
+  padding: 12px 24px;
+  border-radius: 10%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(246, 102, 49);
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutmyself1 .aboutmyself2 .abouttext button {
+    text-align: center;
+    margin-left: 120px;
+  }
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself2 .abouttext button:hover {
+  background-color: orangered;
+  color: black;
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself {
+  position: absolute;
+  top: 280px;
+  left: 300px;
+  background: none;
+  font-size: 48px;
+  color: white;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutmyself1 .aboutmyself {
+    position: absolute;
+    top: 500px;
+    left: 150px;
+  }
+}
+.container .aboutmyself .aboutmyself1 .aboutmyself #my {
+  color: rgb(246, 102, 49);
+}
+.container .aboutmyself .aboutme {
+  display: flex;
+  margin: 220px 0px 50px 0px;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutme {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container .aboutmyself .aboutme .aboutme1 {
+  margin: 50px 36px;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutme .aboutme1 {
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    height: auto;
+  }
+}
+.container .aboutmyself .aboutme .aboutme1 h2 {
+  font-size: 36px;
+  padding-bottom: 24px;
+  color: rgb(246, 102, 49);
+  font-family: "Open Sans", sans-serif;
+}
+.container .aboutmyself .aboutme .aboutme1 p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  color: white;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutme .aboutme1 p {
+    font-size: 12px;
+    text-align: left;
+    margin-right: 36px;
+  }
+}
+.container .aboutmyself .aboutme .aboutme2 {
+  position: relative;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutme .aboutme2 {
+    margin-top: 50px;
+  }
+}
+.container .aboutmyself .aboutme .aboutme2 .aboutme2b {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 70vh;
+  top: -50px;
+  left: 50px;
+  z-index: 0;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutme .aboutme2 .aboutme2b {
+    width: 90%;
+    z-index: 0;
+    top: -50;
+    left: 50px;
+  }
+}
+.container .aboutmyself .aboutme .aboutme2 .about2a {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+@media (max-width: 480px) {
+  .container .aboutmyself .aboutme .aboutme2 .about2a {
+    width: 100%;
+    z-index: 1;
+  }
+}
+.container .work {
+  width: 100%;
+  background-color: white;
+  height: 165vh;
+}
+@media (max-width: 480px) {
+  .container .work {
+    width: 100%;
+    height: auto;
+  }
+}
+.container .work .worka {
+  width: 100%;
+  margin: auto;
+}
+.container .work .worka h2 {
+  margin: 36px 24px;
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+.container .work .worka .work1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 480px) {
+  .container .work .worka .work1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+}
+.container .work .worka .work1 .work1a {
+  width: 33.2%;
+  margin: 0px;
+  box-shadow: 5px 5px 10px black;
+}
+@media (max-width: 480px) {
+  .container .work .worka .work1 .work1a {
+    width: 95%;
+    height: auto;
+    margin: 10px 2px;
+  }
+}
+.container .work .worka .work1 .work1a img {
+  width: 100%;
+  height: 50vh;
+  border: 2px solid black;
+}
+.container .language {
+  background-image: url(./Images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  margin: 0px;
+}
+@media (max-width: 480px) {
+  .container .language {
+    width: 100%;
+    height: auto;
+  }
+}
+.container .language .language1 {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .container .language .language1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container .language .language1 .languages {
+  width: 48%;
+}
+@media (max-width: 480px) {
+  .container .language .language1 .languages {
+    width: 100%;
+  }
+}
+.container .language .language1 .languages h2 {
+  font-size: 48px;
+  color: white;
+  border-bottom: 5px solid white;
+  padding-bottom: 8px;
+  margin: 50px 0px;
+}
+@media (max-width: 480px) {
+  .container .language .language1 .languages h2 {
+    font-size: 32px;
+    margin: 32px 0px;
+  }
+}
+.container .language .language1 .languages .lan h2 {
+  border: none;
+  font-size: 32px;
+}
+@media (max-width: 480px) {
+  .container .language .language1 .languages .lan h2 {
+    font-size: 24px;
+  }
+}
+.container .language .language1 .languages .lan p {
+  color: white;
+  text-align: right;
+}
+.container .language .language1 .languages .lan .lin {
+  background-color: orangered;
+  padding: 18px 0px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px white;
+}
+.container .language .language1 .studies {
+  width: 48%;
+}
+@media (max-width: 480px) {
+  .container .language .language1 .studies {
+    width: 100%;
+  }
+}
+.container .language .language1 .studies h2 {
+  font-size: 48px;
+  color: white;
+  border-bottom: 5px solid white;
+  padding-bottom: 8px;
+  margin: 50px 0px;
+}
+@media (max-width: 480px) {
+  .container .language .language1 .studies h2 {
+    font-size: 32px;
+  }
+}
+.container .language .language1 .studies .lanb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  text-align: left;
+}
+.container .language .language1 .studies .lanb .lanb1 p {
+  font-size: 100px;
+  color: orangered;
+  margin-right: 50px;
+}
+@media (max-width: 480px) {
+  .container .language .language1 .studies .lanb .lanb1 p {
+    font-size: 70px;
+    margin-right: 24px;
+  }
+}
+.container .language .language1 .studies .lanb .lanb2 {
+  color: white;
+  width: 70%;
+}
+.container .language .language1 .studies .lanb .lanb2 h2 {
+  border: none;
+  font-size: 32px;
+}
+@media (max-width: 480px) {
+  .container .language .language1 .studies .lanb .lanb2 h2 {
+    font-size: 24px;
+    text-align: left;
+  }
+}
+.container .skil {
+  width: 100%;
+  background-color: white;
+}
+@media (max-width: 480px) {
+  .container .skil {
+    width: 100%;
+    height: auto;
+  }
+}
+.container .skil h2 {
+  font-size: 48px;
+  color: black;
+  margin: 50px 50px;
+}
+@media (max-width: 480px) {
+  .container .skil h2 {
+    font-size: 32px;
+  }
+}
+.container .skil .skills {
+  width: 100%;
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .container .skil .skills {
+    width: 100%;
+    height: 300vh;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.container .skil .skills .skill {
+  width: 19%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+  border-right: 3px solid orangered;
+  margin: 100px 0px;
+}
+@media (max-width: 480px) {
+  .container .skil .skills .skill {
+    width: 60%;
+    border: none;
+    margin: auto;
+    height: auto;
+    border-bottom: 3px solid orangered;
+    padding-bottom: 12px;
+  }
+}
+.container .skil .skills .skill p {
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
+}
+.container .skil .skills .skill img {
+  width: 100%;
+  overflow: hidden;
+}
+.container footer {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+@media (max-width: 480px) {
+  .container footer {
+    width: 100%;
+    height: 40vh;
+  }
+}
+.container footer h2 {
+  font-size: 32px;
+  margin: 24px 0px;
+}
+@media (max-width: 480px) {
+  .container footer h2 {
+    font-size: 24px;
+    padding-top: 50px;
+  }
+}
+.container footer h4 {
+  font-size: 24px;
+}
+@media (max-width: 480px) {
+  .container footer h4 {
+    font-size: 18px;
+  }
+}
+.container footer button {
+  padding: 12px 24px;
+  margin: 24px 0px;
+  background-color: orangered;
+  font-size: 18px;
+  border-radius: 15px;
+}
+.container footer button:hover {
+  background-color: rgb(117, 35, 6);
+  color: rgb(173, 171, 171);
+}/*# sourceMappingURL=style.css.map */
